@@ -1,0 +1,18 @@
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li .fa-check{
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(4, 100%, 67%);
+    padding: 5px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+li p{
+    color: hsl(234, 29%, 20%);
+}

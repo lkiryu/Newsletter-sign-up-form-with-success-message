@@ -1,0 +1,92 @@
+.signUp{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.title{
+    color: hsl(234, 29%, 20%);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.description{
+    color: hsl(234, 29%, 20%);
+    line-height: 26px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.inputs .messages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messages p{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.messages .email{
+    color: hsl(234, 29%, 20%);
+}
+
+.messages .error{
+    color: hsl(4, 100%, 67%);
+}
+
+.input-email{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin-bottom: 20px;
+}
+
+.input-email::placeholder{
+    color: hsl(231, 7%, 60%);
+}
+
+.input-submit{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s ease-in;
+}
+
+.input-submit:hover{
+    background-color: hsl(4, 100%, 67%);
+}
+
+img{
+    width: 350px;
+}
+
+.none{
+    display: none;
+}
+
+.mobile{
+    display: none;
+}
