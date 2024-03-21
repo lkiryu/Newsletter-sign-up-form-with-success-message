@@ -1,4 +1,4 @@
-.signUp{
+.signUp {
     display: flex;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
@@ -6,24 +6,24 @@
     border-radius: 20px;
 }
 
-.info{
+.info {
     margin-right: 10px;
 }
 
-.title{
+.title {
     color: hsl(234, 29%, 20%);
     font-size: 50px;
     margin-bottom: 20px;
 }
 
-.description{
+.description {
     color: hsl(234, 29%, 20%);
     line-height: 26px;
     width: 400px;
     margin-bottom: 20px;
 }
 
-ul{
+ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,48 +31,48 @@ ul{
     margin-bottom: 30px;
 }
 
-.inputs{
+.inputs {
     display: flex;
     flex-direction: column;
     width: 350px;
 }
 
-.inputs .messages{
+.inputs .messages {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.messages p{
+.messages p {
     font-weight: 700;
     font-size: 12px;
     margin-bottom: 5px;
 }
 
-.messages .email{
+.messages .email {
     color: hsl(234, 29%, 20%);
 }
 
-.messages .error{
+.messages .error {
     color: hsl(4, 100%, 67%);
 }
 
-.input-email{
+.input-email {
     padding: 15px 20px;
     border-radius: 10px;
     border: 1px solid hsl(231, 7%, 60%);
     margin-bottom: 20px;
 }
 
-.input-email::placeholder{
+.input-email::placeholder {
     color: hsl(231, 7%, 60%);
 }
 
-.input-email:focus{
+.input-email:focus {
     outline: 1px solid hsl(231, 7%, 60%);
 }
 
-.input-submit{
+.input-submit {
     padding: 15px 20px;
     border-radius: 10px;
     background-color: hsl(234, 29%, 20%);
@@ -83,31 +83,58 @@ ul{
     transition: 0.3s ease-in;
 }
 
-.input-submit:hover{
+.input-submit:hover {
     background-color: hsl(4, 100%, 67%);
 }
 
-.input-email.error{
+.input-email.error {
     background-color: hsla(4, 100%, 67%, 30%);
     border: 1px solid hsl(4, 100%, 67%);
 }
 
-.input-email.error::placeholder{
+.input-email.error::placeholder {
     color: hsl(4, 100%, 67%);
 }
 
-.input-email.error:focus{
+.input-email.error:focus {
     outline: 1px solid hsl(4, 100%, 67%);
 }
 
-img{
+img {
     width: 350px;
 }
 
-.none{
+.mobile {
     display: none;
 }
 
-.mobile{
-    display: none;
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
 }
+
+.success img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.success .description {
+    width: 300px;
+}
+
+.success .description span {
+    font-weight: 700;
+}
+
+.success .input-submit {
+    width: 100%;
+}
+
+/* .none {
+    display: none;
+} */
