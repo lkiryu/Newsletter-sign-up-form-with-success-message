@@ -2,6 +2,7 @@ import React from "react";
 import desktopImg from "../../images/illustration-sign-up-desktop.svg"
 import mobileImg from "../../images/illustration-sign-up-mobile.svg"
 import ListItem from "../listItem/listItem";
+import validation from "../validation/validation";
 
 import './signUp.css'
 
@@ -19,11 +20,11 @@ const SignUp = () => {
                 <div className="inputs">
                     <div className="messages">
                         <p className="email">Email address</p>
-                        <p className="error none"></p>
+                        <p className="error none">Valid email required</p>
                     </div>
 
                     <input className="input-email" type='email' placeholder="email@company.com"></input>
-                    <input className="input-submit" type='submit' value='Subscribe to monthly newsletter'></input>
+                    <input className="input-submit" type='submit' value='Subscribe to monthly newsletter' onClick={validation}></input>
                 </div>
             </div>
             <div className="illustrattion">

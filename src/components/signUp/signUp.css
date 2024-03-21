@@ -6,6 +6,10 @@
     border-radius: 20px;
 }
 
+.info{
+    margin-right: 10px;
+}
+
 .title{
     color: hsl(234, 29%, 20%);
     font-size: 50px;
@@ -64,6 +68,10 @@ ul{
     color: hsl(231, 7%, 60%);
 }
 
+.input-email:focus{
+    outline: 1px solid hsl(231, 7%, 60%);
+}
+
 .input-submit{
     padding: 15px 20px;
     border-radius: 10px;
@@ -77,6 +85,19 @@ ul{
 
 .input-submit:hover{
     background-color: hsl(4, 100%, 67%);
+}
+
+.input-email.error{
+    background-color: hsla(4, 100%, 67%, 30%);
+    border: 1px solid hsl(4, 100%, 67%);
+}
+
+.input-email.error::placeholder{
+    color: hsl(4, 100%, 67%);
+}
+
+.input-email.error:focus{
+    outline: 1px solid hsl(4, 100%, 67%);
 }
 
 img{
