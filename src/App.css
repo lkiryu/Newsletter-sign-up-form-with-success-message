@@ -15,3 +15,9 @@
   font-size: 16px;
   background-color: hsl(235, 18%, 26%);
 }
+
+@media(max-width:500px){
+  .App{
+    height: 100%;
+  }
+}

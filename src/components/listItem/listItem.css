@@ -16,3 +16,13 @@ li .fa-check{
 li p{
     color: hsl(234, 29%, 20%);
 }
+
+@media(max-width:800px){
+    li .fa-check{
+        margin-right: 5px;
+    }
+
+    li p{
+        font-size: 14px;
+    }
+}
